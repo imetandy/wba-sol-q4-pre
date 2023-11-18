@@ -1,0 +1,25 @@
+{
+  "name": "airdrop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "keygen": "ts-node ./keygen.ts",
+    "airdrop": "ts-node ./airdrop.ts",
+    "transfer": "ts-node ./transfer.ts",
+    "enroll": "ts-node ./enroll.ts",
+    "walletToBase58": "ts-node ./wallet_to_base58.ts",
+    "base58ToWallet": "ts-node ./base58_to_wallet.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "@types/node": "^20.9.1",
+    "bs58": "^5.0.0",
+    "prompt-sync": "^4.2.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.3",
+    "ts-node": "^10.9.1"
+  }
+}
