@@ -1,2 +1,4 @@
 public-key.txt
 *wallet.json
+node_modules
+**node_modules
